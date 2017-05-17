@@ -1,6 +1,5 @@
 # personal-blogs
 workspace
-The Requirements Specification source file is in banch Software-Requirements-Specification
   
 Software Requirements  Specification  
   
