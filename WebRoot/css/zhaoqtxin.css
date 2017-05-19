@@ -1,0 +1,452 @@
+/***
+ *	DedeCMS v5.3 Style (grass green)
+ *	dedecms.com  Author pigz  2008-11-07 11:49
+ **/
+
+
+/*---------- import ---------*/
+
+@import url("layout.css");
+@import url("page.css");
+
+/*---------- base ---------*/
+
+*{
+	padding:0px;
+	margin:0px;
+}
+html{
+	background:#FFF;
+}
+body{
+	font:12px Verdana,Arial,Tahoma;
+}
+img{
+	border:none;
+}
+a{
+	color:#990000;
+	text-decoration:none;
+}
+a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+ul{
+	list-style:none;
+}
+input,select,button{
+	font:12px Verdana,Arial,Tahoma;
+	vertical-align:middle;
+}
+
+/*---------- stock ---------*/
+
+.center{
+	margin:0px auto;
+}
+.w960{
+	width:960px;
+	position:relative;
+}
+.mt6{/* ( margin-top * 5 ) */
+	margin-top:6px;
+}
+.mt1{/* ( margin-top * 1 ) */
+	margin-top:10px;
+}
+.mt2{/* ( margin-top * 2 ) */
+	margin-top:16px;
+}
+.mb2{
+	margin-bottom:20px;
+}
+.clear{
+	overflow:hidden;
+}
+.fs-12{
+	font-size:12px;
+}
+.fc-f60{
+	color:#990000;
+}
+.fc-f90{
+	color:#F90;
+}
+.fright{
+	float:right;
+}
+.fleft{
+	float:left;
+}
+.ipt-txt{
+	line-height:14px;
+	padding:4px 5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#666 #BBB #BBB #666;
+	font-size:12px;
+	margin-right:2px;
+}
+.ipt-txt-1{
+	line-height:14px;
+	padding:2px 2px;
+}
+.ipt-txt-2{
+	width:430px;
+  height:25px;
+  line-height:25px;
+  padding:2px 5px;
+  border:1px solid #9bce8c;
+}
+.btn-1{
+	width:56px;
+	height:23px;
+	border:none;
+	background:url(../images/btn-bg1.gif) no-repeat;
+	line-height:25px;
+	letter-spacing:1px;
+	overflow:hidden;
+	color:#2F592E;
+	cursor:pointer;
+}
+.btn-2{
+	width:68px;
+	height:23px;
+	border:1px solid #9b9b9b;
+	background:url(../images/btn-bg2.gif) left top repeat-x;
+	line-height:23px;
+	overflow:hidden;
+	color:#444;
+	cursor:pointer;
+	margin-right:2px;
+	vertical-align:middle;
+}
+.btn-3{
+	height:31px;
+	width:68px;
+  line-height:31px;
+	border:1px solid #9bce8c;
+	background:#f3faf3;
+	overflow:hidden;
+	color:#444;
+	cursor:pointer;
+	margin-left:12px;
+	vertical-align:middle;
+}
+
+/*---------- frame ---------*/
+
+/*---------- frame : header ---------*/
+
+.header{
+	width:100%;
+	overflow:hidden;
+}
+.header a{
+	color:#777;
+}
+
+.header a:hover{
+	color:#390;
+	text-decoration:none;
+}
+.header .top .title{
+	float:left;
+	padding-left:0px;
+	margin-top:8px;
+}
+.header .top .title h1 a,.header .top .title h2 a{
+	width:200px;
+	height:60px;
+	display:block;
+	font-size:0px;
+	text-indent:-200px;
+	overflow:hidden;
+	background:url(../images/logo.gif) center center no-repeat;
+}
+.header .top .welcome{
+	float:right;
+	margin-top:20px;
+	padding-right:10px;
+	color:#999;
+}
+.header .top .welcome a{
+	margin:0px 3px;	
+}
+.header .start{
+	height:20px;
+	padding-top:5px;
+	color:#999;
+	border-bottom:1px solid #EAEAEA;
+}
+.header .start ul{
+	height:19px;
+	overflow:hidden;
+}
+.header .start ul li{
+	line-height:19px;
+	padding:0px;
+}
+.header .start ul li h1{
+	font-size:12px;
+	font-weight:normal;
+}
+.header .start ul li.welcome{
+	margin-left:-4px;
+	color:#777;
+	float:left;
+	font-size:12px;
+}
+.header .start ul li.help{
+	float:right;
+}
+.header .head{
+	clear:both;
+	overflow:hidden;
+}
+.header .head .title{
+	clear:both;
+	height:60px;
+	margin:8px 0px;
+}
+.header .head .title li.logo{
+	width:200px;
+	height:60px;
+	display:block;
+	float:left;
+}
+.header .head .title li.topbanner{
+	display:block;
+	width:468px;
+	height:60px;
+	margin-left:15px;
+	float:left;
+}
+.header .head .title li.rlink{
+	display:block;
+	width:258px;
+	height:60px;
+	float:left;
+	margin-left:17px;
+	overflow:hidden;
+	margin-top:3px;
+}
+.header .head .title li.rlink a{
+	display:block;
+	width:78px;
+	height:23px;
+	background:url(../images/toprlink-bg.gif) left top no-repeat;
+	float:left;
+	margin-right:8px;
+	margin-bottom:11px;
+	overflow:hidden;
+}
+.header .head .title li.rlink a span{
+	display:block;
+	line-height:21px;
+	text-indent:22px;
+	background-image:url(../images/toprlink-bg.gif);
+	background-repeat:no-repeat;
+}
+.header .head .title li.rlink a.r1 span{
+	background-position:0px -21px;
+}
+.header .head .title li.rlink a.r2 span{
+	background-position:0px -42px;
+}
+.header .head .title li.rlink a.r3 span{
+	background-position:0px -63px;
+}
+.header .head .title li.rlink a.r4 span{
+	background-position:0px -84px;
+}
+.header .head .title li.rlink a.r5 span{
+	background-position:0px -105px;
+}
+.header .head .title li.rlink a.r6 span{
+	background-position:0px -126px;
+}
+
+/*---------- header : nav ---------*/
+.header .nav{
+	clear:both;
+	width:100%;
+	height:32px;
+	background:#990000 url(../images/nav-bg-2.gif) no-repeat 0px 0px;
+}
+.header .nav ul{
+	height:22px;
+	padding:5px 0px 5px 0px;
+	margin-left:11px;
+	overflow:hidden;
+	float:left;
+}
+.header .nav ul li{
+	height:22px;
+	float:left;
+	overflow:hidden;
+	margin-left:-2px;
+	background:url(../images/nav-hover.gif) no-repeat 0 4px;
+}
+.header .nav ul li a{
+	height:22px;
+	line-height:22px;
+	display:block;
+	padding-left:16px;
+	padding-right:16px;
+	float:left;
+	overflow:hidden;
+}
+.header .nav ul li a span{
+	color:#FFFFFF;
+}
+.header .nav ul li a:hover{
+	text-decoration:underline;
+}
+.header .nav ul li a:hover span{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+.header .subnav{
+	clear:both;
+	padding-bottom:7px;
+	border:1px solid #990000;
+	border-top:none;
+	overflow:hidden;
+}
+.header .subnav ul{
+	margin:0 0 0 5px;
+	overflow:hidden;
+}
+.header .subnav li{
+	width:86px;
+	height:15px;
+	float:left;
+	text-align:center;
+	margin-top:8px;
+	margin-left:-2px;
+	padding-left:2px;
+	background:url(../images/subnav-bg.png) no-repeat 0px 2px;
+}
+
+.header .search{
+	height:60px;
+	margin-top:8px;
+	float:left;
+}
+.header .search .form{
+	padding:25px 20px 0px 30px;
+	float:left;
+}
+.header .search .hisearch{
+	float:left;
+	padding-top:35px;
+}
+
+.resultlist .searchbox{
+	clear:both;
+	width:100%;
+}
+.resultlist .searchad{
+	clear:both;
+	width:100%;
+	margin:10px 0px 10px 0px;
+}
+.resultlist .mb2{
+	margin-bottom:20px;
+}
+.resultlist .searchbox span.litnav{
+	clear:both;
+	display:block;
+	margin:100px 180px 8px 180px;
+}
+.resultlist .searchbox span.litnav a{
+	font-size:14px;
+	margin-left:15px;
+	text-decoration:underline;
+}
+.resultlist .searchbox span.search{
+	clear:both;
+	display:block;
+	margin:0px 180px 120px 180px;
+}
+
+/*---------- frame : channel-nav ---------*/
+
+.channel-nav{
+	width:958px;
+	height:30px;
+	border:1px solid #990000;
+	border-top:none;
+	overflow:hidden;
+}
+.channel-nav .form{
+	padding:4px 0 0 8px;
+	float:left;
+}
+.channel-nav .form li{
+	color:#777;
+	line-height:20px;
+	float:left;
+}
+.channel-nav .qq{
+	float:left;
+}
+.channel-nav .message{
+	display:block;
+	height:22px;
+	color:#666;
+	line-height:22px;
+	padding:5px 8px 0px 29px;
+	float:right;
+	background:url(../images/ico-message.gif) 9px 9px no-repeat;
+} 
+.channel-nav .message a{
+	color:#94B56A;
+}
+.channel-nav .message a:hover{
+	color:#390;
+}
+
+/*---------- frame : footer -#4A7749--------*/
+.tags .tbox dd{
+	border-top:1px solid #990000;
+}
+.tags .tbox dd strong{
+	color:#990000;
+}
+.tags .tbox dd h3{
+	font-size:12px;
+}
+
+.footer{
+	color:#999;
+	text-align:center;
+	padding-bottom:10px;
+	border-top:1px solid #990000;
+	padding-top:10px;
+}
+.footer .link{
+	padding:5px 0px;
+}
+.footer .powered{
+	line-height:25px;
+}
+.footer .powered a{
+	color:#999;
+}
+.footer .copyright{
+	line-height:23px;
+}
+
+.index .usercenter .tbox{
+	border-bottom:1px dotted #990000;
+}
+.index .tags .tbox dd{
+	border-top:none;
+}
+.all-js{
+	display:none;
+}

@@ -43,10 +43,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <nav id="topics" class="topics">
     <ul>
       <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="index.jsp" title="首页" class="nav_first">首页</a>&nbsp&nbsp&nbsp&nbsp
-      <a class="nav_4"  href="/mood/index"  title="精彩博文">精彩博文</a>&nbsp&nbsp&nbsp&nbsp
-      <a class="nav_3"  href="/memory/index?tag=3"  title="韶华追忆">博文分类</a>&nbsp&nbsp&nbsp&nbsp
-      <a class="nav_16"  href="/index/message"  title="Blog留言">Blog留言</a>&nbsp&nbsp&nbsp&nbsp
-      <a class="nav_1"  href="/about/index"  title="关于我">关于我</a></h1>&nbsp&nbsp&nbsp&nbsp
+      <a class="nav_4"  href="jcbw.jsp"  title="精彩博文">精彩博文</a>&nbsp&nbsp&nbsp&nbsp
+      <a class="nav_3"  href="bwfl.jsp"  title="博文分类">博文分类</a>&nbsp&nbsp&nbsp&nbsp
+      <a class="nav_16"  href="liuyan.jsp"  title="Blog留言">Blog留言</a>&nbsp&nbsp&nbsp&nbsp
+      <a class="nav_1"  href="Aboutme.jsp"  title="关于我">关于我</a></h1>&nbsp&nbsp&nbsp&nbsp
     </ul>
            </nav>
   </header>
@@ -60,12 +60,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <p class="address">现居：江苏省 淮安市</p>
       <p class="role">职业：学生、IT人员</p>
       <p>
-    <a href="javascript:void(0);" id="comp901_btn_invite"><cite >加好友</cite></a>
-    <a href="javascript:void(0);" id="comp901_btn_sendpaper"><cite >发纸条</cite></a>
+    <a href="Friend.jsp" id="comp901_btn_invite"><cite >加好友</cite></a>
+    <a href="zhitiao.jsp" id="comp901_btn_sendpaper"><cite >发纸条</cite></a>
     </p>
     <p>
     <a href="show.jsp" id="comp901_btn_msninfo"><cite>写留言</cite></a>
-    <a href="#" onclick="return false;" id="comp901_btn_follow"><cite onclick="Module.SeeState.add()">加关注</cite></a>
+    <a href="http://weibo.com/5689097645/profile?topnav=1&wvr=6" onclick="http://weibo.com/5689097645/profile?topnav=1&wvr=6" id="comp901_btn_follow"><cite onclick="http://weibo.com/5689097645/profile?topnav=1&wvr=6">加关注</cite></a>
     </p>
     </div>
     <div class="blogclass box">
@@ -109,7 +109,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <p>A面——岁月留痕之时光</p>
       <p>每逢新旧年交替时候，我就被笼罩在一股茫然的思绪里，逃也逃不脱，避也避不开，唯有让心事在静静流逝的时光里苍茫成河。</p>
       <p>是从什么时候开始的呢，我又变得如此感时伤怀？我很羡慕那些在年终盘点总结的人们，过去的一年于他们来说，是大刀阔斧的一年，是硕果累累的一年。再不济的话，也是豪情万丈的一年。而在我那逝去的时光里，平静如水，不起一丝波澜，一年又一年。我没有盘点，因为我没有波澜壮阔；我不会去总结，因为我的总结从来就没有逼近我的心灵。我知道这于我来说，显得多么无厘头。</p>
-      <p class="textimg"><img src="images/text01.jpg"></p>
+      <p class="textimg"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495805088&di=437a7fb783111d838970b5deb633a40e&imgtype=jpg&er=1&src=http%3A%2F%2Fimg2.3lian.com%2F2014%2Ff2%2F110%2Fd%2F54.jpg"></p>
       <p>我喜欢这样安静地坐下来，想一些似有若无的心事。尽量不去想那些飞逝的时光，尽量不去想那些形色匆忙的脚步，似乎是在害怕，在这高速运转的时空里，自己有一天会化作一堆虚无。还记得那一部《岁月神偷》的电影吗？真是要感谢来自香港的导演罗启锐，影片给我们芸芸众生留下太多的唏嘘。在如水一般逝去的时光里，皱纹爬上你的眼角，白发蔓延我的双鬓。岁月才是最好的神偷，偷走了我的青春和你的美好。</p>
       <p>就任这时光慢慢流淌吧，对于大多数人来说，我们无非就是浩瀚时空的一些微尘。虎年走了又怎样</p>
     </ul>
